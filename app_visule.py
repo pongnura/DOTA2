@@ -29,7 +29,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: red;'>Dota 2</h1>", unsafe_allow_html=True)
 
 # Video
-vid_file= open("./VF/Dota 2 - Join the Battle.mp4","rb")
+vid_file= open("./app/vf01/Dota 2 - Join the Battle.mp4","rb")
 st.video(vid_file)
 
 
