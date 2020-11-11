@@ -178,7 +178,7 @@ if job_selected =="Slardar":
 	##อธิบาย Graph
 	st.markdown("""### Graph: item ยอดนิยม มี 3 ชิ้น โดยกราฟจะแสดง itemที่อยู่ใน slot0-5  """)
 	from PIL import Image
-	img = Image.open("./VF/slardar.png")
+	img = Image.open("/app/vf01/slardar.png")
 	st.image(img, width=800, caption="SLARDAR")
 
 	st.markdown("""
