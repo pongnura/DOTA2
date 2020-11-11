@@ -229,7 +229,7 @@ if job_selected =="Elder Titan": ##Visago
 	#HEAD
 	st.header('SKILL Elder Titan ')
 	# Video
-	vid_file= open("./VF/Dota 2 Hero Spotlight - Elder Titan.mp4","rb")
+	vid_file= open("/app/vf01/Dota 2 Hero Spotlight - Elder Titan.mp4","rb")
 	st.video(vid_file)
 	##Table data Visaga win
 	st.markdown(f'<div style="color: purple;">Table data Elder Titan win.</div>',
