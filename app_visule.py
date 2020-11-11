@@ -46,7 +46,7 @@ if job_selected =="Visage": ##Visago
 	#HEAD
 	st.header('SKILL VISAGE ')
 	# Video
-	vid_file= open("./VF/Dota 2 Hero Spotlight - Visage the Necro'lic.mp4","rb")
+	vid_file= open("/app/vf01/Dota 2 Hero Spotlight - Visage the Necro'lic.mp4","rb")
 	st.video(vid_file)
 	##Table data Visaga win
 	st.markdown(f'<div style="color: purple;">Table data Visaga win.</div>',
@@ -75,7 +75,7 @@ if job_selected =="Visage": ##Visago
 
 	st.markdown("""### Graph: item ยอดนิยม มี 3 ชิ้น โดยกราฟจะแสดง itemที่อยู่ใน slot0-5 """)
 	from PIL import Image
-	img = Image.open("/Users/natty/Desktop/VF/Screen Shot 2020-11-09 at 21.53.23.png")
+	img = Image.open("/app/vf01/Screen Shot 2020-11-09 at 21.53.23.png")
 	st.image(img, width=800, caption="Simple Image")
 
 	st.markdown("""
@@ -95,16 +95,16 @@ if job_selected =="Visage": ##Visago
 	
 	if job_selected =="item1":    ##item_1
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 22.52.26.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.52.26.png")
 		st.image(img, width=400)
 
 	if job_selected =="item1":    ##item_1
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-10 at 09.47.57.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-10 at 09.47.57.png")
 		st.image(img, width=400)
 
 	st.markdown(""" ### Graph : Win Rate""")
-	img = Image.open("./VF/Screen Shot 2020-11-09 at 22.33.51.png")
+	img = Image.open("/app/vf01/Screen Shot 2020-11-09 at 22.33.51.png")
 	st.image(img, width=800, caption="win rate")
 	st.markdown(
 	"""
@@ -120,13 +120,13 @@ if job_selected =="Windranger":
 	#HEAD
 	st.header('SKILL Windranger ')
 	# Video
-	vid_file= open("./VF/Dota 2 Hero Spotlight - Windranger [Remastered].mp4","rb")
+	vid_file= open("/app/vf01/Dota 2 Hero Spotlight - Windranger [Remastered].mp4","rb")
 	st.video(vid_file)
 
 	st.markdown("""### Graph: item ยอดนิยม มี 3 ชิ้น โดยกราฟจะแสดง itemที่อยู่ใน slot0-5 """)
 
 	from PIL import Image
-	img = Image.open("./VF/Screen Shot 2020-11-11 at 22.32.00.png")
+	img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.32.00.png")
 	st.image(img, width=800, caption="Windranger")
 	st.markdown("""
 	- phase_boots เป็นitem เป็นแรกที่ควรออกในช่วงเริ่มเกม
@@ -137,26 +137,26 @@ if job_selected =="Windranger":
 	job_selected = st.selectbox("item", ["Table item All","item0", "item1", "item2", "item3","item4","item5"])
 	if job_selected =="item2":	##item_2 dust
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 22.44.37.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.44.37.png")
 		st.image(img, width=400, caption="tranquil_boots")
 	
 	if job_selected =="item5":    ##item_5 dust
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 22.44.37.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.44.37.png")
 		st.image(img, width=400)
 
 	if job_selected =="item0":    ##item_1 phase boots
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 22.48.32.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.48.32.png")
 		st.image(img, width=400)
 
 	if job_selected =="item4":    ##item_1 phase boots
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 22.49.46.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.49.46.png")
 		st.image(img, width=400)
 
 	st.markdown(""" ### Graph : Win Rate""")
-	img = Image.open("./VF/Screen Shot 2020-11-10 at 10.12.22.png")
+	img = Image.open("/app/vf01/Screen Shot 2020-11-10 at 10.12.22.png")
 	st.image(img, width=800, caption="win rate")
 	st.markdown(
 	"""
@@ -172,7 +172,7 @@ if job_selected =="Slardar":
 	#HEAD
 	st.header('SKILL SLARDAR ')
 	# Video
-	vid_file= open("./VF/Dota 2 Hero Spotlight - Slardar [Remastered].mp4","rb")
+	vid_file= open("/app/vf01/Dota 2 Hero Spotlight - Slardar [Remastered].mp4","rb")
 	st.video(vid_file)
 
 	##อธิบาย Graph
@@ -194,23 +194,23 @@ if job_selected =="Slardar":
 	
 	if job_selected =="item0":	##item_0
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 18.37.44.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 18.37.44.png")
 		st.image(img, width=400, caption="tranquil_boots")
 	
 	if job_selected =="item3":    ##item_3 power treads
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 18.42.26.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 18.42.26.png")
 		st.image(img, width=400)
 
 	if job_selected =="item1":    ##item_1 black king bar
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 18.44.26.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 18.44.26.png")
 		st.image(img, width=400)
 	
 	
 	##Pie plot 
 	st.markdown(""" ### Graph : Win Rate""")
-	img = Image.open("./VF/Screen Shot 2020-11-11 at 18.47.57.png")
+	img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 18.47.57.png")
 	st.image(img, width=800, caption="win rate")
 	st.markdown(
 	"""
@@ -258,7 +258,7 @@ if job_selected =="Elder Titan": ##Visago
 
 	st.markdown("""### Graph: item ยอดนิยม มี 3 ชิ้น โดยกราฟจะแสดง itemที่อยู่ใน slot0-5 """)
 	from PIL import Image
-	img = Image.open("/Users/natty/Desktop/VF/Screen Shot 2020-11-11 at 23.37.28.png")
+	img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 23.37.28.png")
 	st.image(img, width=800, caption="Elder Titan")
 
 	st.markdown("""
@@ -273,21 +273,21 @@ if job_selected =="Elder Titan": ##Visago
 	
 	if job_selected =="item_0":	##item_0 arcane boots
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 23.43.40.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 23.43.40.png")
 		st.image(img, width=400, caption="tranquil_boots")
 	
 	if job_selected =="item_0":    ##item_0 blade mail
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 23.41.30.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 23.41.30.png")
 		st.image(img, width=400)
 
 	if job_selected =="item_1":    ##item_1
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 23.44.44.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 23.44.44.png")
 		st.image(img, width=400)
 
 	st.markdown(""" ### Graph : Win Rate""")
-	img = Image.open("./VF/Screen Shot 2020-11-11 at 23.54.41.png")
+	img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 23.54.41.png")
 	st.image(img, width=800, caption="win rate")
 	st.markdown(
 	"""
