@@ -11,10 +11,7 @@ import os
 import hashlib
 # passlib,bcrypt
 
-# Data Viz Pkgs
-import matplotlib.pyplot as plt 
-import matplotlib
-matplotlib.use('Agg')
+
 
 
 ##background
