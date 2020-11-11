@@ -86,19 +86,19 @@ if job_selected =="Visage": ##Visago
 
 	st.markdown(f'<div style="color: purple;">item of Slot</div>',
         unsafe_allow_html=True)
-	job_selected = st.selectbox("item", ["Table item All","item0", "item1", "item2", "item3","item4","item5"])
+	job_selected = st.selectbox("item", ["Table slot All","slot0", "slot1", "slot2", "slot3","slot4","slot5"])
 	
-	if job_selected =="item0":	##item_0
+	if job_selected =="slot0":	##item_0
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.51.04.png")
 		st.image(img, width=400, caption="tranquil_boots")
 	
-	if job_selected =="item1":    ##item_1
+	if job_selected =="slot1":    ##item_1
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.52.26.png")
 		st.image(img, width=400)
 
-	if job_selected =="item1":    ##item_1
+	if job_selected =="slot1":    ##item_1
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-10 at 09.47.57.png")
 		st.image(img, width=400)
@@ -134,23 +134,23 @@ if job_selected =="Windranger":
 	- dust เป็นitem ไม่นิยมโดยทั่วไปไม่ได้เป็นitem ติดslotไหนเลย ช่วยใหญ่ผู้เล่นมักให้อยู่ slot2,5
 	""")
 
-	job_selected = st.selectbox("item", ["Table item All","item0", "item1", "item2", "item3","item4","item5"])
-	if job_selected =="item2":	##item_2 dust
+	job_selected = st.selectbox("item", ["Table slot All","slot0", "slot1", "slot2", "slot3","slot4","slot5"])
+	if job_selected =="slot2":	##item_2 dust
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.44.37.png")
 		st.image(img, width=400, caption="tranquil_boots")
 	
-	if job_selected =="item5":    ##item_5 dust
+	if job_selected =="slot5":    ##item_5 dust
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.44.37.png")
 		st.image(img, width=400)
 
-	if job_selected =="item0":    ##item_1 phase boots
+	if job_selected =="slot0":    ##item_1 phase boots
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.48.32.png")
 		st.image(img, width=400)
 
-	if job_selected =="item4":    ##item_1 phase boots
+	if job_selected =="slot4":    ##item_1 phase boots
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.49.46.png")
 		st.image(img, width=400)
@@ -190,19 +190,19 @@ if job_selected =="Slardar":
 	##Table item 
 	st.markdown(f'<div style="color: purple;">item of Slot</div>',
         unsafe_allow_html=True)
-	job_selected = st.selectbox("item", ["Table item All","item0", "item1", "item2", "item3","item4","item5"])
+	job_selected = st.selectbox("item", ["Table slot All","slot0", "slot1", "slot2", "slot3","slot4","slot5"])
 	
-	if job_selected =="item0":	##item_0
+	if job_selected =="slot0":	##item_0
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 18.37.44.png")
 		st.image(img, width=400, caption="tranquil_boots")
 	
-	if job_selected =="item3":    ##item_3 power treads
+	if job_selected =="slot3":    ##item_3 power treads
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 18.42.26.png")
 		st.image(img, width=400)
 
-	if job_selected =="item1":    ##item_1 black king bar
+	if job_selected =="slot1":    ##item_1 black king bar
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 18.44.26.png")
 		st.image(img, width=400)
@@ -269,19 +269,19 @@ if job_selected =="Elder Titan": ##Visago
 
 	st.markdown(f'<div style="color: purple;">item of Slot</div>',
         unsafe_allow_html=True)
-	job_selected = st.selectbox("item", ["Table item All.","item_0", "item_1", "item_2", "item_3","item_4","item_5"])
+	job_selected = st.selectbox("item", ["Table slot All","slot_0", "slot_1", "slot_2", "slot_3","slot_4","slot_5"])
 	
-	if job_selected =="item_0":	##item_0 arcane boots
+	if job_selected =="slot_0":	##item_0 arcane boots
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 23.43.40.png")
 		st.image(img, width=400, caption="tranquil_boots")
 	
-	if job_selected =="item_0":    ##item_0 blade mail
+	if job_selected =="slot_0":    ##item_0 blade mail
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 23.41.30.png")
 		st.image(img, width=400)
 
-	if job_selected =="item_1":    ##item_1
+	if job_selected =="slot_1":    ##item_1
 		from PIL import Image
 		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 23.44.44.png")
 		st.image(img, width=400)
