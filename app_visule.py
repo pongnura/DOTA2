@@ -90,7 +90,7 @@ if job_selected =="Visage": ##Visago
 	
 	if job_selected =="item0":	##item_0
 		from PIL import Image
-		img = Image.open("./VF/Screen Shot 2020-11-11 at 22.51.04.png")
+		img = Image.open("/app/vf01/Screen Shot 2020-11-11 at 22.51.04.png")
 		st.image(img, width=400, caption="tranquil_boots")
 	
 	if job_selected =="item1":    ##item_1
